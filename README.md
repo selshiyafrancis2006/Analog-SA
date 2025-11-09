@@ -34,6 +34,7 @@ Step 8: Normalize the recovered signal and compare it with the original message.
 
 <h2>Code:</h2>
 <h2>SCILAB</h2>
+
 ```
 Voice_Max_Amp = 0.5830994;
 [Voice, fs_old, bits] = wavread("C:\Users\acer\Downloads\Voice.wav");
@@ -98,6 +99,7 @@ plot(t(1:N), demodulated(1:N));
 xlabel("Time (s)");
 ylabel("Amplitude");
 title("Recovered Message Signal (Voice Normalized)");
+
 ```
 
 <h2>Output Waveform:</h2>
